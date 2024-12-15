@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ovh.neziw</groupId>
+    <artifactId>JavaDesignPatterns</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>singleton</module>
+        <module>builder</module>
+        <module>adapter</module>
+        <module>observer</module>
+        <module>factory</module>
+        <module>proxy</module>
+        <module>prototype</module>
+        <module>decorator</module>
+        <module>strategy</module>
+        <module>flyweight</module>
+        <module>visitor</module>
+        <module>memento</module>
+        <module>bridge</module>
+        <module>facade</module>
+        <module>interpreter</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.5.12</version>
+        </dependency>
+    </dependencies>
+
+</project>
